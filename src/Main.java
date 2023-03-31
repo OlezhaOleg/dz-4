@@ -4,5 +4,7 @@ public class Main {
         Age age = new Age();
 
         age.age();
+        System.out.println(String.format("\"---%d>---\"%n",  age.age()));
+
     }
 }
